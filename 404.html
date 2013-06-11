@@ -3,6 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>Page Not Found :(</title>
+		<script type="text/javascript">
+			<!--
+			location.href="/#"+location.pathname;
+			//-->
+		</script>
         <style>
             ::-moz-selection {
                 background: #b3d4fc;
@@ -148,9 +153,6 @@
                 <li>a mistyped address</li>
                 <li>an out-of-date link</li>
             </ul>
-			<script>
-				document.write(document.referrer);
-			</script>
             <script>
                 var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
             </script>
