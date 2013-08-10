@@ -1,1 +1,1 @@
-{"postid":"msi-targetdir","category":["windows","msi"],"meta":"/api/msi-targetdir.meta.json","date":"2013/06/03 22:47:15","url":"/api/msi-targetdir.html","title":"msiのカスタムアクションでインストール先ディレクトリのパスを取得する"}
+{"meta":"/api/msi-targetdir.meta.json","date":"2013-06-03T22:47:15+09:00","title":"msiのカスタムアクションでインストール先ディレクトリのパスを取得する","url":"/api/msi-targetdir.html","postid":"msi-targetdir","category":["windows","msi"]}
