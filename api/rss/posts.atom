@@ -8,96 +8,96 @@
   <title>seido.github.io all posts</title>
   <updated>2013-06-04T22:54:02+09:00</updated>
   <entry>
-    <id>http://seido.github.io//api/angular-repeat-limit.html</id>
-    <link href="http://seido.github.io//api/angular-repeat-limit.html"/>
+    <id>http://seido.github.io/#!/post/angular-repeat-limit/</id>
+    <link href="http://seido.github.io/#!/post/angular-repeat-limit/"/>
     <title>ng-repeatでlimitを指定する</title>
     <updated>2013-06-04T22:54:02+09:00</updated>
     <dc:date>2013-06-04T22:54:02+09:00</dc:date>
     <dc:date>2013-06-04T22:54:02+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/maven-export-jar.html</id>
-    <link href="http://seido.github.io//api/maven-export-jar.html"/>
+    <id>http://seido.github.io/#!/post/maven-export-jar/</id>
+    <link href="http://seido.github.io/#!/post/maven-export-jar/"/>
     <title>Mavenで依存jarファイルをエクスポートする</title>
     <updated>2013-06-03T22:58:20+09:00</updated>
     <dc:date>2013-06-03T22:58:20+09:00</dc:date>
     <dc:date>2013-06-03T22:58:20+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/tomcat-memory.html</id>
-    <link href="http://seido.github.io//api/tomcat-memory.html"/>
+    <id>http://seido.github.io/#!/post/tomcat-memory/</id>
+    <link href="http://seido.github.io/#!/post/tomcat-memory/"/>
     <title>Tomcat7メモリ設定</title>
     <updated>2013-06-03T22:57:27+09:00</updated>
     <dc:date>2013-06-03T22:57:27+09:00</dc:date>
     <dc:date>2013-06-03T22:57:27+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/vmware-nat.html</id>
-    <link href="http://seido.github.io//api/vmware-nat.html"/>
+    <id>http://seido.github.io/#!/post/vmware-nat/</id>
+    <link href="http://seido.github.io/#!/post/vmware-nat/"/>
     <title>VNWare Player で NATの詳細設定</title>
     <updated>2013-06-03T22:52:23+09:00</updated>
     <dc:date>2013-06-03T22:52:23+09:00</dc:date>
     <dc:date>2013-06-03T22:52:23+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/nohp.html</id>
-    <link href="http://seido.github.io//api/nohp.html"/>
+    <id>http://seido.github.io/#!/post/nohp/</id>
+    <link href="http://seido.github.io/#!/post/nohp/"/>
     <title>Linuxでログアウト後にもプロセスを残す</title>
     <updated>2013-06-03T22:51:13+09:00</updated>
     <dc:date>2013-06-03T22:51:13+09:00</dc:date>
     <dc:date>2013-06-03T22:51:13+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/msi-targetdir.html</id>
-    <link href="http://seido.github.io//api/msi-targetdir.html"/>
+    <id>http://seido.github.io/#!/post/msi-targetdir/</id>
+    <link href="http://seido.github.io/#!/post/msi-targetdir/"/>
     <title>msiのカスタムアクションでインストール先ディレクトリのパスを取得する</title>
     <updated>2013-06-03T22:47:15+09:00</updated>
     <dc:date>2013-06-03T22:47:15+09:00</dc:date>
     <dc:date>2013-06-03T22:47:15+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/jekyll-install.html</id>
-    <link href="http://seido.github.io//api/jekyll-install.html"/>
+    <id>http://seido.github.io/#!/post/jekyll-install/</id>
+    <link href="http://seido.github.io/#!/post/jekyll-install/"/>
     <title>Install Jekyll!</title>
     <updated>2013-06-03T22:43:23+09:00</updated>
     <dc:date>2013-06-03T22:43:23+09:00</dc:date>
     <dc:date>2013-06-03T22:43:23+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/msi-js-log.html</id>
-    <link href="http://seido.github.io//api/msi-js-log.html"/>
+    <id>http://seido.github.io/#!/post/msi-js-log/</id>
+    <link href="http://seido.github.io/#!/post/msi-js-log/"/>
     <title>msiのJScriptカスタムアクションでログを出力する</title>
     <updated>2013-06-03T22:41:09+09:00</updated>
     <dc:date>2013-06-03T22:41:09+09:00</dc:date>
     <dc:date>2013-06-03T22:41:09+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/facebook-app-token.html</id>
-    <link href="http://seido.github.io//api/facebook-app-token.html"/>
+    <id>http://seido.github.io/#!/post/facebook-app-token/</id>
+    <link href="http://seido.github.io/#!/post/facebook-app-token/"/>
     <title>Facebook app access token作成</title>
     <updated>2013-06-03T22:36:34+09:00</updated>
     <dc:date>2013-06-03T22:36:34+09:00</dc:date>
     <dc:date>2013-06-03T22:36:34+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/markdowntest.html</id>
-    <link href="http://seido.github.io//api/markdowntest.html"/>
+    <id>http://seido.github.io/#!/post/markdowntest/</id>
+    <link href="http://seido.github.io/#!/post/markdowntest/"/>
     <title>Markdown test</title>
     <updated>2013-06-03T22:34:11+09:00</updated>
     <dc:date>2013-06-03T22:34:11+09:00</dc:date>
     <dc:date>2013-06-03T22:34:11+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/create-facebook-user.html</id>
-    <link href="http://seido.github.io//api/create-facebook-user.html"/>
+    <id>http://seido.github.io/#!/post/create-facebook-user/</id>
+    <link href="http://seido.github.io/#!/post/create-facebook-user/"/>
     <title>Facebookテストユーザ作成</title>
     <updated>2013-06-03T22:30:11+09:00</updated>
     <dc:date>2013-06-03T22:30:11+09:00</dc:date>
     <dc:date>2013-06-03T22:30:11+09:00</dc:date>
   </entry>
   <entry>
-    <id>http://seido.github.io//api/sysstat.html</id>
-    <link href="http://seido.github.io//api/sysstat.html"/>
+    <id>http://seido.github.io/#!/post/sysstat/</id>
+    <link href="http://seido.github.io/#!/post/sysstat/"/>
     <title>Amazon Linux io統計</title>
     <updated>2013-06-03T22:20:04+09:00</updated>
     <dc:date>2013-06-03T22:20:04+09:00</dc:date>
