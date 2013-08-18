@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>seido</name>
   </author>
-  <id>http://seido.github.io/Users/seido/test/anblog/app/api/rss/posts.atom</id>
+  <id>http://seido.github.io/Users/seido/github/angularbloggen/app/api/rss/posts.atom</id>
   <title>seido.github.io all posts</title>
-  <updated>2013-06-04T22:54:02+09:00</updated>
+  <updated>2013-08-18T22:49:22+09:00</updated>
+  <entry>
+    <id>http://seido.github.io/#!/post/jsontoken-deserialize/</id>
+    <link href="http://seido.github.io/#!/post/jsontoken-deserialize/"/>
+    <title>JsonTokenでJWTをシリアライズ</title>
+    <updated>2013-08-18T22:49:22+09:00</updated>
+    <dc:date>2013-08-18T22:49:22+09:00</dc:date>
+    <dc:date>2013-08-18T22:49:22+09:00</dc:date>
+  </entry>
   <entry>
     <id>http://seido.github.io/#!/post/angular-repeat-limit/</id>
     <link href="http://seido.github.io/#!/post/angular-repeat-limit/"/>
@@ -103,5 +111,5 @@
     <dc:date>2013-06-03T22:20:04+09:00</dc:date>
     <dc:date>2013-06-03T22:20:04+09:00</dc:date>
   </entry>
-  <dc:date>2013-06-04T22:54:02+09:00</dc:date>
+  <dc:date>2013-08-18T22:49:22+09:00</dc:date>
 </feed>

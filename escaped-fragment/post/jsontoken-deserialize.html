@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="ja"><head>
+	<meta charset="UTF-8">
+	<meta name="date" content="2013-08-18T22:49:22+09:00">
+	<title>JsonTokenでJWTをシリアライズ</title>
+</head>
+<body>
+<p>いろいろ探しまわっても情報がないので、コードみながらなんとか動作させることができた。<br>
+Checkerの使い方が怪しい。。</p>
+<div class="CodeRay">
+  <div class="code"><pre><span style="color:#088;font-weight:bold">final</span> Verifier verifier;
+<span style="color:#080;font-weight:bold">try</span> {
+    verifier = <span style="color:#080;font-weight:bold">new</span> HmacSHA256Verifier(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">XXX-SECRET-KEY-XXX</span><span style="color:#710">&quot;</span></span>.getBytes());
+} <span style="color:#080;font-weight:bold">catch</span> (<span style="color:#C00;font-weight:bold">InvalidKeyException</span> ex) {
+    <span style="color:#080;font-weight:bold">throw</span> <span style="color:#080;font-weight:bold">new</span> <span style="color:#C00;font-weight:bold">RuntimeException</span>(ex);
+}
+VerifierProvider hmacLocator = <span style="color:#080;font-weight:bold">new</span> VerifierProvider() {
+    <span style="color:#007">@Override</span>
+        <span style="color:#088;font-weight:bold">public</span> <span style="color:#0a5;font-weight:bold">List</span>&lt;Verifier&gt; findVerifier(<span style="color:#0a5;font-weight:bold">String</span> id, <span style="color:#0a5;font-weight:bold">String</span> key) {
+            <span style="color:#080;font-weight:bold">return</span> <span style="color:#0a5;font-weight:bold">Arrays</span>.asList(verifier);
+        }
+};
+VerifierProviders vp = <span style="color:#080;font-weight:bold">new</span> VerifierProviders();
+vp.setVerifierProvider(SignatureAlgorithm.HS256, hmacLocator);
+JsonToken token;
+<span style="color:#080;font-weight:bold">try</span> {
+    JsonTokenParser parser = <span style="color:#080;font-weight:bold">new</span> JsonTokenParser(vp, <span style="color:#080;font-weight:bold">new</span> Checker() {
+        <span style="color:#007">@Override</span>
+        <span style="color:#088;font-weight:bold">public</span> <span style="color:#339;font-weight:bold">void</span> check(JsonObject payload) <span style="color:#088;font-weight:bold">throws</span> <span style="color:#C00;font-weight:bold">SignatureException</span> {
+            <span style="color:#777">// 何もチェックしない</span>
+        }
+    });
+    token = parser.verifyAndDeserialize(jwt);
+} <span style="color:#080;font-weight:bold">catch</span> (<span style="color:#C00;font-weight:bold">SignatureException</span> ex) {
+    <span style="color:#080;font-weight:bold">throw</span> <span style="color:#080;font-weight:bold">new</span> <span style="color:#C00;font-weight:bold">RuntimeException</span>(ex);
+}
+</pre></div>
+</div>
+
+</body></html>
